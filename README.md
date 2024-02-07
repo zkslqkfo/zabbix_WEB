@@ -3,5 +3,8 @@
 ## 설치 환경
 
 ```
-OS : Amazon Linux 2, Zabbix 5.0, MySQL 5.7, Nginx
+OS : Amazon Linux 2,
+모니터링 : Zabbix 5.0
+DB : MySQL 5.7
+WEB : Nginx
 ```
