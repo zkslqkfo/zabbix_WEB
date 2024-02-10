@@ -29,3 +29,12 @@ yum -y install mysql-community-server --disablerepo=mysql80-community --enablere
 
 -------
 
+## Zabbix agent 설치
+```
+sudo amazon-linux-extras install epel -y
+rpm -Uvh https://repo.zabbix.com/zabbix/5.0/rhel/7/x86_64/zabbix-release-5.0-1.el7.noarch.rpm
+rpm -Uvh https://rpmfind.net/linux/centos/7.9.2009/extras/x86_64/Packages/centos-release-scl-rh-2-3.el7.centos.noarch.rpm
+rpm -Uvh https://rpmfind.net/linux/centos/7.9.2009/extras/x86_64/Packages/centos-release-scl-2-3.el7.centos.noarch.rpm
+yum install -y zabbix-agent
+
+```
