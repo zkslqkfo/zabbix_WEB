@@ -14,6 +14,7 @@ WEB : Nginx
 
 
 ## Zabbix Server 설치
+```
 sudo amazon-linux-extras install epel -y
 rpm -Uvh https://repo.zabbix.com/zabbix/5.0/rhel/7/x86_64/zabbix-release-5.0-1.el7.noarch.rpm
 rpm -Uvh https://rpmfind.net/linux/centos/7.9.2009/extras/x86_64/Packages/centos-release-scl-rh-2-3.el7.centos.noarch.rpm
@@ -24,6 +25,7 @@ yum install zabbix-server-mysql.x86_64
 rpm -ivh https://dev.mysql.com/get/mysql80-community-release-el7-1.noarch.rpm
 rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022
 yum -y install mysql-community-server --disablerepo=mysql80-community --enablerepo=mysql57-community
+```
 
 -------
 
