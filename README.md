@@ -39,3 +39,5 @@ yum install -y zabbix-agent
 
 ```
 
+## Zabbix agent 설치
+```
