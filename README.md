@@ -39,3 +39,6 @@ yum install -y zabbix-agent
 
 ```
 
+-------
+## line.sh
+d
