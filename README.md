@@ -38,4 +38,5 @@ rpm -Uvh https://rpmfind.net/linux/centos/7.9.2009/extras/x86_64/Packages/centos
 yum install -y zabbix-agent
 
 ```
-
+## Zabbix agent 설치
+```
