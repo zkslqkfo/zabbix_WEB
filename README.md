@@ -25,6 +25,7 @@ yum install zabbix-server-mysql.x86_64
 rpm -ivh https://dev.mysql.com/get/mysql80-community-release-el7-1.noarch.rpm
 rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022
 yum -y install mysql-community-server --disablerepo=mysql80-community --enablerepo=mysql57-community
+sdfdsfsfsf
 ```
 
 -------
